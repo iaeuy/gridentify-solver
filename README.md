@@ -9,5 +9,7 @@ Python implementation of Gridentify, and a simple solver.
   - `minimax_playout`/`expectimax_playout`: minimax/expectimax tree search up to specificed depth evaluation function given by `Gridentify.evaluate`. Setting `max_children` takes a random sample of `max_children` nodes at each step to limit the branching factor.  
   - `flat_monte_playout`: uses flat Monte Carlo to select moves. `playout_type` specifies which of the above playout types is used during rollouts.
   
+Currently, the strongest playout type that runs in reasonable time is `expectimax_playout`, which can average scores around 650 and reach high scores around 1300 (i.e. creating several 96 tiles). 
+  
 TO DO: better MCTS (SP-MCTS with determinization), frontend with Django, better documention   
 
