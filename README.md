@@ -1,5 +1,5 @@
 # gridentify-solver
-Python implementation and of Gridentify, and an simple solver.
+Python implementation of Gridentify, and a simple solver.
 
 `play.py` - run in Python console to start a game of Gridentify. Input moves as a list of coordinates, e.g. A1 A2 A3 to connect the first three tiles of the top row.
 
